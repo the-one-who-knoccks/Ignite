@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "NODE_ENV=production webpack"
+  },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
     "react": "^17.0.1",
