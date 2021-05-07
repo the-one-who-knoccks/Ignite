@@ -7,8 +7,9 @@ export function Header() {
       <Content>
         <img src={logo} alt="dt money" />
         <button type="button">Nova transação
+
       </button>
-      </Content>
+      </Content> 
     </Container>
   )
 }
