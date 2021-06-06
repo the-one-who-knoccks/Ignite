@@ -9,7 +9,7 @@ import { useTransactions } from '../../hooks/useTransactions';
 export function Summary() {
 
   const { transactions } = useTransactions();
-
+ 
 
   const summary = transactions.reduce((acc, transaction) => {
     if (transaction.type === 'deposit') {

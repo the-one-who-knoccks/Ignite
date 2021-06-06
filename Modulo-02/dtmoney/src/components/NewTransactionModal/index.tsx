@@ -8,7 +8,7 @@ import closeImg from '../../assets/close.svg';
 import icomeImg from '../../assets/income.svg';
 import outcomeImg from '../../assets/outcome.svg';
 import { useTransactions } from '../../hooks/useTransactions';
-
+ 
 
 interface NewTransactionModalProps {
   isOpen: boolean;
